@@ -1,0 +1,189 @@
+.profile-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.username-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.name-and-edit-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.name-and-icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.username{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+@media screen and (min-width:768px) {
+    .username{
+        font-size: 22px;
+    }
+}
+
+.username-check-icon{
+    height: 23px;
+    width: 23px;
+    color: rgb(14, 221, 14);
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.profile-edit-button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 17px;
+    font-weight: bold;
+    color: orange;
+    cursor: pointer;
+}
+@media screen and (min-width:768px) {
+    .profile-edit-button{
+        font-size: 19px;
+    }
+}
+
+.username-emailid{
+    font-family: 'DM Sans';
+    font-size: 13px;
+    font-style: normal;
+    color: lightslategray;
+    margin-bottom:15px;
+}
+@media screen and (min-width:768px) {
+    .username-emailid{
+        font-size: 15px;
+    }
+}
+
+.section-seperate-line{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.heading-and-dropdown-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.heading{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+@media screen and (min-width:768px) {
+    .heading{
+        font-size: 20px;
+    }
+}
+
+.dropdown-icon{
+    height: 16px;
+    width: 16px;
+    color: lightslategray;
+}
+
+.details{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 13px;
+    color: lightslategray;
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+@media screen and (min-width:768px) {
+    .details{
+        font-size: 16px;
+    }
+}
+
+.membership-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.approval-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.past-orders{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+@media screen and (min-width:768px) {
+    .past-orders{
+        font-size: 22px;
+    }
+}
+
+.location{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.rupees{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(151, 156, 162);
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+@media screen and (min-width:768px) {
+    .rupees{
+        font-size: 15px;
+    }
+}
